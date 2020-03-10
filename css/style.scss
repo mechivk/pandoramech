@@ -4,7 +4,7 @@ $rosita: #fdc8cc;
 $masclarito: #c9a166;
 $clarito: #aa7a31;
 $rusty: rgb(158, 81, 9);
-$darkrusty:rgb(109, 57, 8);
+$darkrusty:rgba(65, 34, 7, 0.884);
 $azulcito: #02002cdc;
 $azulote: #01001fc4;
 $azulotef:#01001fe8;
@@ -257,12 +257,11 @@ body {
 }
 
 .btn-primary {
-    background-color: $clarito;
+    background-color: $rusty;
     border-color: $azulote;
     color: #fff;
 }
 .btn-primary:hover {
-    background-color: $rusty;
     border-color: $snow;
 }
 
@@ -356,9 +355,11 @@ hr {
       opacity: 0.7;
     }
   }
+
 iframe {
     border: 1px solid $rusty;
 }
+
 
 
 

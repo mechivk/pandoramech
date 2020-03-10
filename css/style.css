@@ -87,7 +87,7 @@ body {
 }
 
 .home #sub {
-  color: #6d3908;
+  color: rgba(65, 34, 7, 0.884);
   font-weight: 400;
 }
 
@@ -288,13 +288,12 @@ body {
 }
 
 .btn-primary {
-  background-color: #aa7a31;
+  background-color: #9e5109;
   border-color: #01001fc4;
   color: #fff;
 }
 
 .btn-primary:hover {
-  background-color: #9e5109;
   border-color: #ffefce;
 }
 
@@ -429,7 +428,8 @@ hr {
     opacity: 0.7;
   }
 }
+
 iframe {
-    border: 1px solid $rusty;
+  border: 1px solid #9e5109;
 }
-/*# sourceMappingURL=mainstylefinal.css.map */
+/*# sourceMappingURL=style.css.map */
