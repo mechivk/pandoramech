@@ -294,7 +294,7 @@ body {
 }
 
 .btn-primary:hover {
-  background-color: #9e5109;
+  background-color: #9e5109 !important;
   border-color: #ffefce;
 }
 
